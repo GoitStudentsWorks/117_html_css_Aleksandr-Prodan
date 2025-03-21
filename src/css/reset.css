@@ -8,19 +8,20 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
+ul,
+ol {
+  list-style-type: none;
   padding: 0;
-  list-style: none;
+  margin: 0;
 }
 
 a {
   color: currentColor;
   text-decoration: none;
+}
+
+a:focus {
+  outline: none;
 }
 
 button {
@@ -31,4 +32,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input {
+  padding: 0;
+  margin: 0;
 }
