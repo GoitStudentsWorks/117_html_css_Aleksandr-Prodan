@@ -17,6 +17,33 @@
         outdoor atmosphere.
       </li>
     </ol>
-    <img src="../img/" alt="" />
+    <picture>
+      <source
+        srcset="
+          ../img/advantages/advantages-desc.webp    1x,
+          ../img/advantages/advantages-desc@2x.webp 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/advantages/advantages-tablet.webp    1x,
+          ../img/advantages/advantages-tablet@2x.webp 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ../img/advantages/advantages-mob.webp    1x,
+          ../img/advantages/advantages-mob@2x.webp 2x
+        "
+        media="(max-width: 767px)"
+      />
+      <img
+        class="advantages-img"
+        src="../img/advantages/advantages-mob.webp"
+        alt="foto yacht"
+      />
+    </picture>
   </div>
 </section>
