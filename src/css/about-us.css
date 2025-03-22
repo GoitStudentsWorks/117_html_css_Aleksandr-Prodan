@@ -1,1 +1,138 @@
+.about-us {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
+.container-about-us {
+  max-width: 335px;
+  height: 675px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  background-color: #fbfbfb;
+  border-radius: 24px;
+}
+
+.about-us-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 40px;
+  max-width: 295px;
+}
+
+.container-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 295px;
+}
+
+.about-us-text-big {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+
+.about-us-text-small {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+}
+
+.about-us-img {
+  width: 335px;
+  height: 395px;
+  border-radius: 24px;
+  margin: -300px auto 0;
+}
+
+@media (min-width: 768px) {
+  .about-us {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .container-about-us {
+    max-width: 704px;
+    padding-top: 50px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .about-us-title {
+    font-size: 48px;
+    margin-bottom: 50px;
+    max-width: 536px;
+  }
+  .container-text {
+    max-width: 389px;
+  }
+  .about-us-text-big {
+    font-size: 23px;
+  }
+  .about-us-text-small {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+  .about-us-img {
+    width: 704px;
+    height: 470px;
+    margin-top: -200px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about-us {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .container-about-us {
+    max-width: 1180px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us-title {
+    max-width: 537px;
+    max-height: 144px;
+    margin-bottom: 0;
+  }
+  .container-text {
+    align-items: flex-start;
+    max-width: 354px;
+    max-height: 210px;
+    gap: 20px;
+  }
+  .about-us-text-big {
+    margin-bottom: 0;
+  }
+  .about-us-img {
+    width: 1180px;
+    height: 470px;
+    margin-top: -318px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-about-us {
+    max-width: 1340px;
+  }
+  .container-text {
+    max-width: 404px;
+    max-height: 187px;
+  }
+  .about-us-img {
+    width: 1340px;
+    margin-top: -338px;
+  }
+}
