@@ -10,28 +10,31 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.advantages {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.advantages-container {
+    margin: 0 auto;
+    max-width: 375px;
+} 
 .advantages-container-ol {
     background-color: #1b414b;;
     border-radius: 24px;
-    width: 335px;
+    max-width: 335px;
     height: 642px;
     margin-bottom: 20px;
-}
-.advantages-container-list {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    color: #fbfbfb;
+    padding: 80px 20px 80px 20px;
+    counter-reset: list-counter;
 }
 
-ol li {
+.advantages-container-list {
     counter-increment: my-counter;
     position: relative;
-    padding: 80px 0 0 20px;
+    margin-bottom: 106px;
 }
-
-ol li::before {
+.advantages-container-list::before {
     content: counter(my-counter, decimal-leading-zero);
     position: absolute;
     text-align: right;
@@ -42,6 +45,8 @@ ol li::before {
     line-height: 1;
     letter-spacing: -0.05em;
     color: #fbfbfb;
+    left: 0;
+    top: 0;
 }
 
 .advantages-container-list::after {
@@ -51,14 +56,25 @@ ol li::before {
     background-color: rgba(251, 251, 251, 0.1);
     content: "";
     position: absolute;
-    left: 20px;
+    top: 46px;
 }
+.advantages-container-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    position: relative;
+    top: 66px;
+}
+
+
+
 
 .advantages-img {
     border-radius: 24px;
     max-width: 335px;
     max-height: 424px;
-    margin: 0 auto 80px auto;
 }
 
 @media screen and (min-width: 768px) {
