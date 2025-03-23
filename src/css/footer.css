@@ -1,7 +1,7 @@
 .page-footer {
   min-width: 320px;
   max-width: 355px;
-  margin: 80px auto 0;
+  margin: 0 auto;
 }
 .footer-main-container {
   background-color: #1b414b;
@@ -70,6 +70,8 @@
 }
 
 .footer-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -170,5 +172,14 @@
 
   .footer-subtitle {
     max-width: 693px;
+  }
+  @media screen and (min-width: 1440px) {
+    .page-footer {
+      max-width: 1390px;
+    }
+
+    .footer-subtitle {
+      max-width: 699px;
+    }
   }
 }
