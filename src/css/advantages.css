@@ -64,8 +64,12 @@
 }
 .advantages-img {
     border-radius: 24px;
-    max-width: 335px;
     max-height: 424px;
+}
+@media screen and (max-width: 374px) {
+    .advantages-container-list::after {
+        width: 100%;
+    }
 }
 @media screen and (min-width: 768px) {
     .advantages {
