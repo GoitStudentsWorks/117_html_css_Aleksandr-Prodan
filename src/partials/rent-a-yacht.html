@@ -1,3 +1,131 @@
-<section class="rent-a-yacht">
-  <div class="container"></div>
+<section class="rent-a-yacht section" id="rent">
+  <div class="container rent-a-yacht-container">
+    <div class="rent-a-yacht-content">
+      <h2 class="rent-title">Rent a yacht now</h2>
+      <form class="rent-form">
+        <div class="rent-form-box">
+          <label for="user-name"></label>
+          <input
+            class="rent-input input-style"
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Full Name"
+            pattern="[a-zA-Z]+"
+            title="Oleh"
+            minlength="2"
+            required
+          />
+        </div>
+
+        <div class="rent-form-box">
+          <label for="user-email"></label>
+          <input
+            class="rent-input input-style"
+            type="email"
+            id="user-email"
+            name="user-email"
+            placeholder="Email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+        </div>
+
+        <div class="rent-form-box">
+          <label for="user-number"></label>
+          <input
+            class="rent-input input-style"
+            type="tel"
+            id="user-number"
+            name="user-number"
+            placeholder="Phone number"
+            pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+            title="xxx-xxx-xx-xx"
+            required
+          />
+        </div>
+
+        <div class="rent-form-box-textarea">
+          <label for="user-comment"></label>
+          <textarea
+            class="rent-textarea input-style"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+          ></textarea>
+        </div>
+
+        <button class="rent-sbm-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div>
+      <picture>
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-desc-1440.webp    1x,
+            /img/rent-a-yacht/rent-desc-1440@2x.webp 2x
+          "
+          media="(min-width:1440px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-desc-1440.jpg    1x,
+            /img/rent-a-yacht/rent-desc-1440@2x.jpg 2x
+          "
+          media="(min-width:1440px)"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-desc.webp    1x,
+            /img/rent-a-yacht/rent-desc@2x.webp 2x
+          "
+          media="(min-width:1280px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-desc.jpg    1x,
+            /img/rent-a-yacht/rent-desc@2x.jpg 2x
+          "
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-tablet.webp    1x,
+            /img/rent-a-yacht/rent-tablet@2x.webp 2x
+          "
+          media="(min-width:768px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-tablet.jpg    1x,
+            /img/rent-a-yacht/rent-tablet@2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-mob.webp    1x,
+            /img/rent-a-yacht/rent-mob@2x.webp 2x
+          "
+          media="(max-width:767px)"
+          type="image/webp"
+        />
+        <source
+          srcset="
+            /img/rent-a-yacht/rent-mob.jpg    1x,
+            /img/rent-a-yacht/rent-mob@2x.jpg 2x
+          "
+          media="(max-width:767px)"
+        />
+        <img
+          class="rent-img"
+          src="/img/rent-a-yacht/rent-mob.jpg"
+          alt="Yacht"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
