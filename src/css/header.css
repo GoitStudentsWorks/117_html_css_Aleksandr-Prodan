@@ -1,23 +1,16 @@
-.header {
-
-}
  .header-cont{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   max-width: 335px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 335px;
     height: 42px;
     border: 1px solid #fbfbfb;
     border-radius: 8px;
     background-color: #fbfbfb;
     margin-top: 20px;
-   
-
-      
 }
-
 .nav-logo {
-   font-weight: 500;
+    font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.03em;
     color: #1b414b;
@@ -28,8 +21,6 @@
 .icon-list {
   display: none;
 }
-
-
 .burger-icon {
     stroke-width: 2.50px;
     stroke: #1b414b;
