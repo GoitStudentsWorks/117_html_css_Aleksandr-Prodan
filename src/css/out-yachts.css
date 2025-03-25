@@ -139,7 +139,8 @@
   .sec-title {
     font-size: 48px;
     max-width: 645px;
-    margin-left: 32px;
+    margin: 0 auto;
+    margin-bottom: 75px;
   }
   .yacht-list {
     min-width: 336px;
@@ -189,7 +190,8 @@
 
   .sec-title {
     max-width: 714px;
-    margin-left: 283px;
+    margin: 0 auto;
+    margin-bottom: 75px;
   }
   .yacht-list {
     min-width: 377px;
@@ -230,7 +232,6 @@
 
   .yacht-card {
     max-width: 1240px;
-    margin-left: 40px;
   }
 
   .yacht-img {

@@ -38,7 +38,7 @@
   background-repeat: no-repeat;
   background-color: #0e1823;
   padding-top: 198px;
-  padding-bottom: 302px;
+  padding-bottom: 243px;
   margin: 0;
 }
 .hero-text-container {
@@ -101,7 +101,7 @@
         url(/img/hero/hero-tablet@2x.webp) 2x
       );
     padding-top: 200px;
-    padding-bottom: 282px;
+    padding-bottom: 215px;
   }
   .hero-text-container {
     max-width: 704px;
@@ -136,7 +136,7 @@
         url(/img/hero/hero-desc@2x.webp) 2x
       );
     padding-top: 155px;
-    padding-bottom: 215px;
+    padding-bottom: 180px;
   }
   .hero-text-container {
     max-width: 1001px;
