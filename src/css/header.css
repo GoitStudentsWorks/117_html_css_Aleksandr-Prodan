@@ -46,6 +46,8 @@
   }
   .nav-list {
           display: flex;
+          justify-content: center;
+          align-items: center;
           gap: 4px;
   }
   .icon-list {
@@ -94,11 +96,18 @@
   }                 
 }    
 @media screen and (min-width: 1280px) {
-          .header-cont {
-              max-width: 1080px;
-          }
-          .nav-logo {
-                  margin-right: 296px;
-          }
+    .header-cont {
+        max-width: 1080px;
+    }
+    .nav-logo {
+        margin-right: 296px;
+    }
 }
-
+@media screen and (min-width: 1440px) {
+  .header-cont {
+    max-width: 1240px;
+  }
+  .nav-logo {
+    margin-right: 296px;
+  }
+}
