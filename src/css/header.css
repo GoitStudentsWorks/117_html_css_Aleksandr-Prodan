@@ -1,4 +1,4 @@
- .header-cont{
+.header-cont {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,30 +33,26 @@
     border: none;
 }
 @media screen and (min-width: 768px) {
-       .nav-logo {
-           font-weight: 500;
-           font-size: 20px;
-           letter-spacing: -0.03em;
-           color: #1b414b;
-           margin-right: 90px;
-          }
-       
-
-        .header-cont {
-           max-width: 704px;
-           height: 48px;
-         }
-
-         .nav-list {
-           display: flex;
-           gap: 4px;
-          }
-  
-         .icon-list {
-           display: flex;
-           gap: 8px;
-         }
-        .nav-link {
+  .header-cont {
+          max-width: 704px;
+          height: 48px;
+  }    
+  .nav-logo {
+          font-weight: 500;
+          font-size: 20px;
+          letter-spacing: -0.03em;
+          color: #1b414b;
+          margin-right: 90px;
+  }
+  .nav-list {
+          display: flex;
+          gap: 4px;
+  }
+  .icon-list {
+          display: flex;
+          gap: 8px;
+  }
+  .nav-link {
           display: flex;
           align-items: center;
           justify-content: center;
@@ -71,45 +67,38 @@
           width: 91px;
           height: 40px;
           transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            
-          }
-    
-        .nav-header-item {
+  }
+  .nav-header-item {
          display: flex;
          align-items: center;
          justify-content: center;
+  }
 
-        }
-
-        .burger-menu{
+  .burger-menu{
           display: none;
-        }
-        .nav {
+  }
+  .nav {
           display: flex;
           align-items: center;
-           
-        }
-            .nav-link:hover,
-            .nav-link:focus {
+  }
+  .nav-link:hover, .nav-link:focus {
               background-color: #1b414b; 
-          }
-                   
-          .icons {
+  }
+  .icons {
             fill: #1b414b;
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-          }     
-          .icons:hover,
-          .icons:focus {
+  }     
+  .icons:hover,
+  .icons:focus {
             fill: #062730;
-          }                 
-      }    
- @media screen and (min-width: 1280px) {
+  }                 
+}    
+@media screen and (min-width: 1280px) {
           .header-cont {
               max-width: 1080px;
-              height: 48px;
-              }
-                .nav-logo {
+          }
+          .nav-logo {
                   margin-right: 296px;
-                }
-      }
+          }
+}
 
